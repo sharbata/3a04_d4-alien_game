@@ -1,4 +1,4 @@
-# 3a04_d4-alien_game
+# 3a04_g07_d4-unity_alien_game
 Our Alien Game Project. Made with Unity.
 Made by:
  - Ammar
