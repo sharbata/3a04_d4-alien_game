@@ -101,13 +101,13 @@ public class SpecimenBase : ScriptableObject
         }
     }
 
-    public List<object> tasksCompleted {
+    public List<object> TasksCompleted {
         get {
             return tasksCompleted;
         }
     }
 
-    public List<object> itemsPurchased {
+    public List<object> ItemsPurchased {
         get {
             return itemsPurchased;
         }

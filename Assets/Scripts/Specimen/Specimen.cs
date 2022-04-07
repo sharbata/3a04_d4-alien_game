@@ -12,18 +12,18 @@ public class Specimen
         level = pLevel;
     }
 
-    public void PurchaseItem {
+    public List<object> PurchaseItem {
         set {
-            if (!_base.itemsPurchased.Contains(value)){
-                _base.itemsPurchased.Add(value);
+            if (!_base.ItemsPurchased.Contains(value)){
+                _base.ItemsPurchased.Add(value);
             }
         }
     }
 
-    public void CompleteTask {
+    public List<object> CompleteTask {
         set {
-            if (!_base.tasksCompleted.Contains(value)){
-                _base.tasksCompleted.Add(value);
+            if (!_base.TasksCompleted.Contains(value)){
+                _base.TasksCompleted.Add(value);
             }
         }
     }
